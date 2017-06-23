@@ -1,0 +1,89 @@
+body{
+  background-color:grey;
+  padding-bottom: 20px;
+}
+h1{
+  text-align: center;
+}
+.nav{
+  padding: 0 0;
+  margin: 0;
+}
+.navbar-brand{
+  font-size: 40px;
+  font-family: "Dancing Script";
+  font-style:oblique;
+  padding: 0, 0;
+}
+.navText{
+  font-size: 20px;
+  padding:0,0;
+}
+
+.jumbotron {
+  margin-top: 10px;
+  background: url("notepad.jpg") ;
+  background-size:cover;
+  opacity: 0.6;
+}
+.jumbotron h1{
+  color:#8FBC8F;
+  font-weight: bolder;
+  text-align: center;
+}
+.jumbotron p{
+  text-align: center;
+  padding-top: 20px;
+}
+.eContain{
+  text-align: center;
+  width: 50%;
+  height:100%;
+  background-size: cover;
+  padding-top: 20px;
+}
+.form-group{
+max-width: 500px;
+}
+.list-group-item{
+  background-color:	#b29e8d;
+}
+ .col-md-5{
+  text-align: center;
+  background-color: #b29e8d;
+  padding: 20px;
+}
+.page-header{
+  text-align: center;
+  background-image: url("pad.jpg");
+  background-size: cover;
+  padding-bottom: 100px;
+  margin: 0;
+  max-height:100px;
+
+}
+.pageheader{
+  text-align: center;
+  border-bottom: solid;
+  border-color: white;
+  padding-bottom: 100px;
+  margin: 0;
+  max-height:100px;
+}
+.homeScreenPhoto{
+  border-radius: 100%;
+  width: 500px;
+  padding-left:70px;
+  padding-top: 70px;
+  top: 200px;
+  left: 350px;
+  display: inline;
+  float: left;
+  shape-outside:polygon();
+}
+.hometext {
+  line-height: 2.0;
+  padding-top: 70px;
+  font-size: 25px;
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Blog Entry</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <div class="nav">
+        <%- include('navbar') %>
+    </div>
+    <h1>Add a New Entry</h1>
+    <center><div class="eContain">
+         <center><form class="" action="/home" method="post">
+           <div class="form-group">
+              <h3>Title</h3>
+              <input  class="form-control" type="text" name="title" placeholder="title"  >
+           </div>
+           <br>
+           <div class="form-group">
+             <h3>Article</h3>
+             <textarea  class="form-control" type="text"name= "article" spellcheck="true" placeholder="Article" rows="8" ></textarea>
+          </div>
+          <br>
+          <div class="form-group">
+            <button  class="btn btn-primary btn-lg btn-block" >Submit</button>
+          </div>
+        </form></center>
+    </div></center>
+  </body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blog</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="nav">
+        <%- include('navbar') %>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        <strong><h1>Welcome to My Blog</h1></strong>
+        <p class="lead">Check out the articles below!</p>
+      </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="list-group">
+          <!-- loop over blog posts and render them -->
+            <% result.forEach(function(post) { %>
+              <a href="/post/<%=post.postid %>" class="list-group-item">
+                <h4 class="list-group-item-heading"><%= post.title %></h4>
+                <p class="list-group-item-text"><%= post.date.toDateString() %></p>
+              </a>
+                <% }) %>
+              </div>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>
