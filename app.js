@@ -9,10 +9,10 @@ app.set('view engine', 'ejs');
 app.use( express.static( "public" ) );
 
 var connection = mysql.createConnection({
-  host     : 'localhost',
-  user     : process.env.DB_USER,
-  password : process.env.DB_PASS,
-  database  : 'mydb'
+  host     : 'us-cdbr-iron-east-03.cleardb.net',
+  user     : 'b056c6aedbe3d8',
+  password : 'c1e8723f',
+  database  : 'heroku_389b65385086f4d'
 })
 connection.connect(function(error){
   if(!!error){
